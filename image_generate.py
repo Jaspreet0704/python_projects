@@ -9,7 +9,7 @@ from IPython.display import Image, display
 
 from langchain_community.utilities.dalle_image_generator import DallEAPIWrapper
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] ="api_key"
 
 llm = ChatOpenAI(api_key = os.environ['OPENAI_API_KEY'])
 
